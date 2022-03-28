@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat, repeat;
+  background-size: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+/* besic-style start */
+
+h1{
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 86px;
+  color: #000;
+  text-transform: uppercase;
+}
+h2{
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 42px;
+  color: #FFFFFF;
+  text-align: center;
+}
+h3{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  color: #C4C4C4;
+}
+h4{
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  text-align: center;
+  color: #000;
+}
+h5{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FF0000;
+  text-align: center;
+}
+h6{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000;
+}
+hr{
+  width: 284.5px;
+  border: 4px solid #FF0000;
+}
+a{
+  text-decoration: none;
+  color: #000;
+  padding: 34px;
+}
+p{
+  color: #747576;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+/* besic-style start */
+/* nav-bar start */
+.nav-item {
+  margin-left: 68px;
+}
+a.nav-link {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+.navbar-light .navbar-nav .nav-link:active{
+  color: red;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: red;
+}
+/* nav-bar end */
+/* heade-start */
+
+.row.header-row {
+  align-items: center;
+  padding:5em 0;
+}
+a.brn {
+  border: 3px solid #FF0000;
+}
+a.brn:hover {
+  color: #747576;
+}
+h3.info {
+  padding: 25px 0 50px 0px;
+}
+/* heade-end */
+ /* whoweare-start  */
+p.para-wwa {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 42px;
+  text-align: center;
+  color: #000;
+  padding: 0px 6em;
+}
+.wesre- {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.img-whowa {
+  text-align: center;
+}
+.row.wwa-info {
+  padding: 6em 0;
+  align-items: center;
+}
+ /* whoweare-end  */
+ /* Business Consulting-start  */
+ p.para-wwa.Business-para {
+  padding: 0 1em;
+}
+img.business-img {
+  width: 100%;
+}
+.business-cons{
+  background: url(./img/Rectangle\ 9.png);
+}
+.row.wwa-row.b-row {
+  padding: 3em 0 4em 0;
+}
+h6.title {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 30px;
+  color: #fff;
+}
+.col-lg-2.business-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding-bottom: 2em;
+}
+p.b-info {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0;
+}
+.para-b {
+  border: 2px solid #fff;
+  padding: 4px;
+}
+.row.businessinfo-row {
+  justify-content: center;
+  gap: 4em;
+}
+p.para-wwa.Business-para.Technology-para {
+  color: #fff;
+}
+.Technology-Consulting {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.72) 0%, #000000 100%);
+  padding: 3em 0;
+}
+.cummunity {
+  background: url(./img/Mask\ group\ \(3\).jpg);
+  background-size: 100%;
+  padding: 12em 0;
+}
+/* Business Consulting-end  */
+
+footer {
+  padding-top: 5em;
+  background-image: url(./img/Group\ 212.jpg)
+  ;
+  background-size: 100%;
+}
+h2.title-footer {
+  color: #000;
+}
+hr:not([size]) {
+  height: 1px;
+  width: 180.5px;
+  margin-left: 43%;
+}
+select.form-select {
+  border: none;
+  background: #f2f2f2;
+  border-bottom: 1px solid  gray;
+  margin: 2em 0;
+  width: 100%;
+}
+input.form-control {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: 2em 0;
+  background: none;
+  width: 100%;
+}
+textarea#exampleFormControlTextarea1 {
+  border: none;
+  border-bottom: 1px solid gray;
+  background: none;
+  margin: 2em 0;
+  width: 100%;
+}
+button.btn.btn-dark {
+  background: red;
+  border: none;
+  padding: 10px 30px;
+  
+}
+.row.row-footer {
+  padding: 2em 0;
+}
+.hr-f {
+  width: 100%;
+  height: 3px;
+  background: red;
+  margin-bottom: 1em;
+}
+p.last-text {
+  text-align: center;
+}
